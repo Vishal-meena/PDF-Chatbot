@@ -3,6 +3,12 @@
 ## Description
 A chatbot that interacts with users by answering questions based on the content of a provided PDF.
 
+
+
+https://github.com/user-attachments/assets/3bbc8871-4f3d-4fed-90d0-fdbb1e5fa3e7
+
+
+
 ## Features
 - Upload a PDF file
 - Preprocess the PDF to create a vector store
