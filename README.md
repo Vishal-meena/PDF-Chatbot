@@ -1,2 +1,57 @@
-# PDF-Chatbot
-Chat With PDF is an AI-powered chatbot that answers user questions based on the content of a provided PDF. Using LangChain, OpenAI, and Streamlit, it preprocesses the PDF, creates embeddings, and retrieves relevant information, providing accurate responses through an intuitive web interface
+# Chat With PDF
+
+## Description
+A chatbot that interacts with users by answering questions based on the content of a provided PDF.
+
+## Features
+- Upload a PDF file
+- Preprocess the PDF to create a vector store
+- Ask questions about the PDF content
+
+## Requirements
+- Python 3.7+
+- Streamlit
+- LangChain
+- OpenAI API Key
+- dotenv
+
+## Installation
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/yourrepository.git
+    cd yourrepository
+    ```
+
+2. Create and activate a virtual environment:
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
+
+3. Install the required packages:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. Set up environment variables:
+    - Create a `.env` file in the root directory.
+    - Add your OpenAI API key in the `.env` file:
+        ```env
+        OPENAI_API_KEY=your_openai_api_key
+        ```
+
+## Running the App
+1. Start the Streamlit app:
+    ```bash
+    streamlit run app.py --server.enableXsrfProtection false
+    ```
+
+2. Open your browser and go to `http://localhost:8501`.
+
+## Usage
+1. Upload a PDF file using the sidebar.
+2. Click on the "Preprocess" button to process the PDF.
+3. Type your questions in the text input at the bottom.
+
+## Troubleshooting
+- If you encounter any issues, ensure all dependencies are installed and your OpenAI API key is correct.
