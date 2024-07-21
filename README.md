@@ -18,8 +18,8 @@ A chatbot that interacts with users by answering questions based on the content 
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/yourrepository.git
-    cd yourrepository
+    git clone https://github.com/Vishal-meena/PDF-Chatbot.git
+    cd PDF-Chatbot
     ```
 
 2. Create and activate a virtual environment:
