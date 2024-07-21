@@ -1,0 +1,8 @@
+langchain-cli
+openai
+langchain-community
+langchain-core
+streamlit
+python-dotenv
+chromaDB
+PyMuPDF
